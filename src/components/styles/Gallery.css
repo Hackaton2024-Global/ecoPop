@@ -1,0 +1,59 @@
+.carta-modelo {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+.producto-imagen {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+.producto-info-basico {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0.8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.producto-titulo {
+    position: absolute;
+    top: 0;
+    margin: 2rem;
+    padding: 1rem;
+    color: #604B2A;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: rgb(246, 240, 190, .6);
+    border-radius: 1rem;
+/*     opacity: .5; */
+}
+.boton-producto-agregar {
+    width: 50%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: #604B2A;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.boton-producto-detalles {
+    width: 50%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: #604B2A;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
