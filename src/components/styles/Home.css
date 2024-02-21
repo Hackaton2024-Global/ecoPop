@@ -1,0 +1,21 @@
+
+.fondo {
+    background-color: rgb(246, 240, 190);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-pagina-productos,
+.subtitulo-pagina-productos {
+    margin: 1rem;
+}
+
+.itemContent{
+    background-color: rgb(246, 240, 190);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}

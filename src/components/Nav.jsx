@@ -13,6 +13,7 @@ const Nav = () => {
             <a href=""><button>Galeria</button></a>
             <a href=""><button>Contacto</button></a>
             <a href=""><button>Sign Up</button></a>
+            {/* <a href=""><button>+ Subir Producto</button></a> */}
         </div>
     </nav>
     </>
