@@ -3,10 +3,7 @@ import visa from '../assets/Visa.svg';
 import maestro from '../assets/Maestro.svg';
 import dinner from '../assets/DinersClub.svg';
 import pay from '../assets/PayPal.svg';
-import i from '../assets/icons/Instagram.png';
-import f from '../assets/icons/Facebook Circled.png';
-import a from '../assets/icons/Amazon.png';
-import w from '../assets/icons/WhatsApp.png';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Footer = () => {
   return (
@@ -17,11 +14,11 @@ const Footer = () => {
                 <h3 className="siguenos">Síguenos</h3>
             </div>
             <div className="footerIzqRedes">
-                <img src={i} alt="instagram" />
-                <img src={f} alt="facebook" />
-                <img src={a} alt="amazon" />
-                <img src={w} alt="whatssap" />
-
+                <div><i className="bi bi-twitter-x"></i></div>
+                <div><i className="bi bi-instagram"></i></div>
+                <div><i className="bi bi-facebook"></i></div>
+                <div><i className="bi bi-amazon"></i></div>
+                <div><i className="bi bi-whatsapp"></i></div>
             </div>
         </div>
         <div className="footerCen">
