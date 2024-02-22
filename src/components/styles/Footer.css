@@ -1,32 +1,35 @@
 .footerEcoPop{
-    height: 15rem;
+    height: 13rem;
     width: 100%;
     background-color: #604B2A;
     display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 .footerIzq{
-width: 33%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content:center ;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
 }
 .footerIzqRedes{
     display: flex;
-    width: 100%;
+    width: 70%;
     justify-content: center;
     align-items: center;
-    gap: 10%;
     height: 3rem;
     font-size: 1.5rem;
     color: white;
+    /* margin-bottom: 2rem; */
 }
 .footerIzqRedes i{
     cursor: pointer;
 }
 .siguenos{
     color: white;
-    font-size: medium;
+    margin: 1rem;
 }
 .footerCen{
     display: flex;
@@ -75,15 +78,26 @@ justify-content:center ;
     transform-origin: bottom left;
 }
 .footerDer{
+    margin-top: 0.5rem;
     width: 33%;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
-.textoPago{
-    font-size: medium;
+.textoPago {
+    font-size: 1rem;
+}
+
+.meotodoPago{
+    font-size: 1rem;
+}
+
+.img-pagos {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 .legal{
     display: flex;
