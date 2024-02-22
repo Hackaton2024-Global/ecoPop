@@ -1,11 +1,18 @@
 .add-to-cart {
     width: 30%;
-    padding: 1em;
+    padding: 0.8em;
     justify-items: center;
     text-align: center;
-    color: white;
+    color: rgb(246, 240, 190);
     background-color: #604B2A;
     border-radius: 1.5rem;
     border: none;
     font-size: 1.3em;
+}
+
+.cart-icon {
+    width: 1em;
+    margin-right: 5%;
+    justify-items: center;
+    text-align: center;
 }
