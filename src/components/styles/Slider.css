@@ -87,11 +87,16 @@
 .lema {
     z-index: 100;
     position: absolute;
-    font-size: 4rem;
+    font-size: 3.5rem;
+    font-weight: 500;
     top: 3rem;
     left: 50%;
     text-align: right;
     margin-right: 2rem;
+    padding: 1rem 2rem 1rem 1rem;
+    background-color: rgb(246, 240, 190, .6);;
+    border-radius: 1rem;
+    color: #1D0B06;
     
 
 }

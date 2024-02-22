@@ -38,7 +38,7 @@
 /*     opacity: .5; */
 }
 .boton-producto-agregar, .boton-producto-detalles {
-    width: 31%;
+    width: 46%;
     justify-content: center;
     justify-items: center;
     text-align: center;
@@ -47,6 +47,7 @@
     background-color: #604B2A;
     border-radius: 1rem;
     margin: 0.5rem;
+    font-size: 1rem;
 }
 
 .contenedor-productos {
@@ -54,3 +55,4 @@
     display: flex;
     flex-wrap: wrap;
 }
+

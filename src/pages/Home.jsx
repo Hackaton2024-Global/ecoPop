@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { dataMuebles } from '../services/dataMuebles'; 
 import '../components/styles/Home.css';
 import Slider from '../components/Slider';
+import '../../src/index.css';
 
 const Home = () => {
   const [data, setData] = useState(null);

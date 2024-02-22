@@ -1,5 +1,6 @@
 import './styles/Nav.css';
 import logo from '../assets/logo.png';
+import '../../src/index.css';
 
 const Nav = () => {
   return (

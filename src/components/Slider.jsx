@@ -9,7 +9,7 @@ const Slider = () => {
   return (
     
       <article id="container-slider">
-        <p className="lema">EcoPop, donde la Sostenibilidad encuentra su Estilo.</p>
+        <p className="lema">EcoPop, donde la Sostenibilidad encuentra su Estilo</p>
         <section className="section-slider">
         <div className='slider'>
         
