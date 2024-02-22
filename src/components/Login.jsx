@@ -53,7 +53,7 @@ const Login = () => {
                 Acepto la política de privacidad</label>  
             </div>
                 <div className="botonLoginExterno">
-                    <p>Si tienes una cuenta Inicia Sesión:&nbsp</p>
+                    <p>Si tienes una cuenta Inicia Sesión: </p>
                     <a href="/access"><button className="registrateJ">Iniciar Sesión</button></a>
                 </div>
         </main> 

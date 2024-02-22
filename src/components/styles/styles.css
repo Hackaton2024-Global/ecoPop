@@ -1,186 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Kdam+Thmor+Pro&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Roboto:wght@300;400;500;900&display=swap');
 
-*{
-    font-family: comfortaa, sans-serif;
-}
-
-.navEcoPop{
-    height: 8rem;
-    width: 100%;
-    background-color: #604B2A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.logoNav{
-    width: 50%;
-   /*  border: solid; */
-    justify-content: start;
-    padding-left: 4rem;
-}
-
-.botonesNav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-    padding-right: 4rem;
-    /* border: solid; */
-    
-}
-
-.botonesNav button{
-    cursor: pointer;
-    border: none;
-    background-color: #604B2A;
-    color: white;
-    font-size: 1.5rem;
-    display: inline-block;
-    position:relative;
-}
-
-
-.botonesNav button::after{
-    content:'';
-    position: absolute;
-    cursor: pointer;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform: scaleX(0) ;
-    transform-origin: bottom right;
-    transition: transform 0.6s ease-out;
-
-}
-.botonesNav button:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-
-/* ******************************* */
-
-.footerEcoPop{
-    height: 20rem;
-    width: 100%;
-    background-color: #604B2A;
-    display: flex;
-}
-
-.footerIzq{
-width: 33%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content:center ;
-}
-
-.footerIzqRedes{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-    height: 3rem;
-    font-size: 1.5rem;
-    color: white;
-}
-
-.footerIzqRedes i{
-    cursor: pointer;
-}
-
-.siguenos{
-    color: white;
-    font-size: medium;
-}
-
-.footerCen{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    width: 33%;
-    color: white;
-}
-
-.textoInteres h3{
-    font-size: medium;
-}
-
-.footerCenEnlaces{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    width: 100%;
-}
-
-.footerCen button{
-    background-color: #604B2A;
-    border: none;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    display: inline-block;
-    position:relative;
-}
-
-
-.footerCen button::after{
-    content:'';
-    position: absolute;
-    cursor: pointer;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform: scaleX(0) ;
-    transform-origin: bottom right;
-    transition: transform 0.6s ease-out;
-
-}
-.footerCen button:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-
-.footerDer{
-    
-    width: 33%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-.textoPago{
-    font-size: medium;
-
-
-}
-
-.legal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 100%;
-    background-color: #3b2e19;
-    color: white;
-}
-
-
 /* 
 *************Singn up***************** */
 
@@ -192,6 +11,10 @@ justify-content:center ;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.tituloPageAcceso2{
+    margin-bottom: 2%;
 }
 
 .AccesoUsuarioJ{
@@ -220,6 +43,8 @@ justify-content:center ;
     border-radius: 0.5rem;
     height: 2rem;
     width: 20rem;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -227,13 +52,12 @@ justify-content:center ;
     color:black;
     
 }
-.registrateJ {
+.registrateB {
     border: none;
     background-color: #ebb866;
     cursor: pointer;
-    
-
 }
+
 
 /* ***********Acceso 2*********** */
 
@@ -265,9 +89,11 @@ justify-content:center ;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    width: 80%;
-    
-    
+    width: 80%; 
+}
+
+.parrafoAccesoJ{
+    margin-bottom: 2%;
 }
 
 #registroFormJ input{
@@ -279,6 +105,8 @@ justify-content:center ;
    border-radius: 0.5rem;
    height: 2rem;
    width: 20rem;
+   display: flex;
+    justify-content: center;
 }
 
 .politicaPage2J{
@@ -289,5 +117,7 @@ justify-content:center ;
 
 .registrateJ{
     text-decoration-line:underline;
-    
+    display: flex;
+    background-color: #ebb866;
+    border: none;    
 }

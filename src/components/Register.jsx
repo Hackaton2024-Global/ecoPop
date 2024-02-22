@@ -61,12 +61,12 @@ const Register = () => {
             <input type="text" id='name' required placeholder='Nombre' value={name} onChange={(e) => setName(e.target.value)}/>
             <input type="text" id="mailJ" required placeholder="Correo electrónico" value={email} onChange={(e) => setEmail(e.target.value)}/>
             <input type="password" id="passwordJ" required placeholder="Contraseña" value={password} onChange={(e) => setPassword(e.target.value)}/>
-            <input className="registrateJ" type="submit" value="Ingresar" />
+            <input className="registrateJ" type="submit" value="Registrar" />
           </form>
         </div>
         <div className="contenedorDeBotonesJ">
+        <span>Si no tienes una cuenta: </span>{' '}
           <a href="/signup">
-            <span>Si no tienes una cuenta: </span>{' '}
             <button className="registrateJ">Regístrate</button>
           </a>
         </div>
