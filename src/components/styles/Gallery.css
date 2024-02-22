@@ -10,6 +10,7 @@
     justify-items: center;
     text-align: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .producto-imagen {
@@ -62,6 +63,9 @@
     display: flex;
     flex-wrap: wrap;
     transition: transform 0.3s ease;
+    background-color: #f7ee9c;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contenedor-productos:hover {
