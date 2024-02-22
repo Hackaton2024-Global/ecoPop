@@ -6,7 +6,7 @@ const Gallery = (data) => {
 
   return (
     <>
-    {data.data.map((mueble) => {
+      {data.data?.map((mueble) => {
     return (<article className="carta-modelo" key={mueble.id}>
       <div className="contenedor-productos">
       <img src={mueble.img} alt="" className="producto-imagen" />
@@ -24,4 +24,4 @@ const Gallery = (data) => {
     </>
   )}
 
-export default Gallery;
+export default Cgallery;
