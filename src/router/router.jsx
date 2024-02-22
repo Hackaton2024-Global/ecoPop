@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from '../pages/Home';
+import Gallery from "../pages/Gallery";
 import LayoutPublic from '../layout/LayoutPublic';
 
 const router = createBrowserRouter([
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
             index: true,
             element: <Home />, 
           },
+          {
+            path: "/gallery",
+            element: <Gallery />
+          }
         ]
         },
 ]);
