@@ -21,6 +21,10 @@ Garantizamos que cada mueble ha pasado por un proceso de reacondicionamiento par
 
 ### 🌍 Sostenibilidad
 Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la huella de carbono y promoviendo un estilo de vida sostenible.
+## Funcionalidades
+-Página con el listado de anuncios 
+-Página con el detalle de un anuncio 
+-Publicación de anuncios
 
 ## Tecnologias utilizadas
 
