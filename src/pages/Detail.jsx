@@ -1,12 +1,19 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
 import { oneMueble } from "../services/dataMuebles";
-import AddToCart from "../components/AddToCart";
 import '../components/styles/Detail.css'
+import cartIcon from '../assets/cartIcon.svg';
+import Swal from 'sweetalert2';
 
 const Detail = () => {
     const {id} = useParams();
     const  [mueble, setMueble] = useState(null);
+
+
+    const handleClick = () => {
+        Swal.fire(`¡Añadido a la cesta!
+                 Llevas ${mueble.price}€`);
+      };
 
     useEffect(()=>{
         const  fetchData = async() => {
@@ -32,11 +39,13 @@ return (
                 Recuperando el pasado cuidamos el futuro</p>
                 
                 <div className="furniture-price">
-                <p className="price">{mueble.price}</p>
+                <p className="price">{mueble.price}€</p>
                 <p className="iva">Impuestos incluidos</p>
                 </div>
                 <div className="add-cart-bt">
-                <AddToCart/>
+                <button className="add-to-cart" type="button" onClick={handleClick}>
+                 <img src={cartIcon} className="cart-icon" alt="cart-icon" />
+                </button>
                 </div>
                 </div>
                 

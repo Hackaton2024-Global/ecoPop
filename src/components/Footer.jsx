@@ -1,6 +1,6 @@
 import './styles/Footer.css';
 import visa from '../assets/Visa.svg'; 
-import maestro from '../assets/Maestro.svg';
+// import maestro from '../assets/Maestro.svg';
 import dinner from '../assets/DinersClub.svg';
 import pay from '../assets/PayPal.svg';
 import 'bootstrap-icons/font/bootstrap-icons.css';

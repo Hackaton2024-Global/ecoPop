@@ -27,6 +27,22 @@
     align-items: center;
     text-align: center;
 }
+
+.fondo {
+    background-color: rgb(246, 240, 190);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-pagina-productos,
+.subtitulo-pagina-productos {
+    color: #1D0B06;
+    margin: 1rem;
+}
+
 .producto-titulo {
     position: absolute;
     top: 0;
@@ -44,7 +60,7 @@
     justify-content: center;
     justify-items: center;
     text-align: center;
-    padding: 1rem;
+    padding: 2%;
     color: white;
     background-color: #604B2A;
     border-radius: 1rem;
@@ -73,3 +89,10 @@
     border-radius: 1rem;
 }
 
+.delete-button{
+    border-radius: 30px;
+    background-color: #1D0B06;
+    color: white;
+    padding: 1%;
+    width: 20%;
+}

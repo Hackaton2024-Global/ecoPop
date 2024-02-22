@@ -32,15 +32,13 @@ const Home = () => {
         <p>Cargando...</p>
       ) : (
         <>
+        <section className="buscar">
+          <input type="text" placeholder="¿Qué estas buscando?" /><button className="buscarE">Buscar</button>
+        </section>
         <Slider />
-        
-        <main className="fondo">
-        <h1 className="titulo-pagina-productos">MUEBLES RESTAURADOS A MANO CON AMOR</h1>
-        <h2 className="subtitulo-pagina-productos">Dales una segunda vida y cuida tu planeta</h2>
         <section className='itemContent'>
          <Gallery data = {data}/>
         </section>
-        </main>
         </>
       )}
    
