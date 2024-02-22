@@ -4,15 +4,15 @@
 
 ![header](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/a6ab507d-3412-4b91-a313-030905404056)
 
-# ecoPop !!
+# EcoPop !!
 
 ## Proyecto propuesto
 
-¡Bienvenido a ecoPop tu market place original ! 🛋️ Aquí encontrarás una cuidada selección de muebles usados vintage y reacondicionados que añadirán autenticidad y estilo único a tu espacio.
+¡Bienvenido a EcoPop tu market place original ! 🛋️ Aquí encontrarás una cuidada selección de muebles usados vintage y reacondicionados que añadirán autenticidad y estilo único a tu espacio.
 
 ## Descripción del Proyecto
 
-ecoPop !! es un marketplace dedicado a la venta de muebles con historia. Nuestra misión es promover la sostenibilidad a través de la reutilización de muebles vintage, ofreciendo piezas auténticas que cuentan historias únicas.
+EcoPop !! es un marketplace dedicado a la venta de muebles con historia. Nuestra misión es promover la sostenibilidad a través de la reutilización de muebles vintage, ofreciendo piezas auténticas que cuentan historias únicas.
 
 ## Características Destacadas
 
@@ -30,6 +30,7 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Publicación de anuncios
   ## Extra
 - Login en local-host
+- Buscador para fitros
 
 ## Tecnologias utilizadas y gestión de dependencias  
 - HTML
@@ -41,7 +42,7 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Unit Testing
 - Bootstrap
 - Sweet Alert2
-  ## Back end
+  ## Backend
 - JAVA con Maven en  Spring-boot
 - JPA, mySQL conector
 - Lombok
