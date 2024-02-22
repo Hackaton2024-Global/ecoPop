@@ -1,10 +1,11 @@
 import React from "react"
+import './styles/AddToCart.css'
 
 const AddToCart = () => {
 
 return (
     <>
-    <button type="button">Añadir al carrito </button>
+    <button className="add-to-cart" type="button"><img ></img>Añadir al carrito </button>
     </>
 )
 

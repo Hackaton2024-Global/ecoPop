@@ -19,24 +19,35 @@ const Detail = () => {
 return (
     <div>
     {mueble?(
-        <section className="detailCard"
-        key={mueble.id}>
-        <h1>{mueble.name}</h1>
-        <p>{mueble.description}</p>
-        <p>Envío GRATIS (España Peninsular)<br/>
-        Devoluciones 14 días (España Peninsular)<br/>
-        Pago 100% Fácil y Seguro<br/>
-        Finaciación fácil sin gastos ni intereses<br/>
-        Recuperando el pasado cuidamos el futuro</p>
-        <div>
-        <img src={mueble.img} alt="" />
-        <p>{mueble.price}$</p>
-        </div>
-        </section>
+        <main>
+            <section className="section-1"
+            key={mueble.id}>
+                <div>
+                <h1 className="furniture-name">{mueble.name}</h1>
+                <p className="furniture-description">{mueble.description}</p>
+                <p className="shipping-text">Envío GRATIS (España Peninsular)<br/>
+                Devoluciones 14 días (España Peninsular)<br/>
+                Pago 100% Fácil y Seguro<br/>
+                Finaciación fácil sin gastos ni intereses<br/>
+                Recuperando el pasado cuidamos el futuro</p>
+                
+                <div className="furniture-price">
+                <p className="price">{mueble.price}</p>
+                <p className="iva">Impuestos incluidos</p>
+                </div>
+                <div className="add-cart-bt">
+                <AddToCart/>
+                </div>
+                </div>
+                
+                <div>
+                <img className="detail-img" src={mueble.img} alt="mueble vintage"/>
+                </div>
+                </section>
+        </main>
     ):(
         <div>Cargando...</div>
     )}
-    <AddToCart/>
     </div>
 )
 }

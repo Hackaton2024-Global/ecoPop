@@ -1,0 +1,11 @@
+.add-to-cart {
+    width: 30%;
+    padding: 1em;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    background-color: #604B2A;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 1.3em;
+}
