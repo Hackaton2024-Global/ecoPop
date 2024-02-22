@@ -1,4 +1,5 @@
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import { Outlet } from 'react-router-dom';
 
 const LayoutPublic = () => {
@@ -6,7 +7,7 @@ const LayoutPublic = () => {
     <>
     < Nav />
     < Outlet />
-
+    < Footer />
     </>
   )
 }
