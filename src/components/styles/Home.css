@@ -1,0 +1,48 @@
+
+/* .fondo {
+    background-color: rgb(246, 240, 190);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.titulo-pagina-productos,
+.subtitulo-pagina-productos {
+    color: #1D0B06;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.itemContent{
+    background-color: rgb(246, 240, 190);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+/* input buscar */
+
+.buscar{
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.buscar input{
+    height: 2rem;
+    width: 70%;
+    border: none;
+    border-bottom: black solid 1px;
+    margin-right: 0%;
+}
+.buscarE{
+    margin-left: 0.5rem;
+    background-color:#604B2A;
+    height: 2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    color: white;
+}

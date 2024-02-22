@@ -1,0 +1,46 @@
+{
+  "muebles": [
+    {
+      "id": "1",
+      "name": "Sillón antiguo inglés Giselle Fenty",
+      "img": "https://img.freepik.com/foto-gratis/marco-imagen-arte-lineal-junto-mesa-cafe-lectura-sala-estar_53876-132792.jpg?w=360&t=st=1708531071~exp=1708531671~hmac=5cd45645229bc5eccdc8323170087041362bba0ec8e91e9f0dabee90b75b71de",
+      "description": "Los sillones ingleses antiguos son una pieza única de la historia. que viene con sus propias historias para contar. En muchos casos, los muebles ingleses antiguos se transmiten de generación en generación en las familias. Los ricos colores y texturas hacen que cada sillón inglés antiguo valga su peso en oro.",
+      "price": "230"
+    },
+    {
+      "id": "2",
+      "name": "Butaca inglesa restaurada",
+      "img": "https://img.freepik.com/foto-gratis/decoracion-interior-espejo-planta-maceta_23-2149427955.jpg?w=360&t=st=1708531126~exp=1708531726~hmac=1121e433bd658cba57d262272fbd6a9a6ca8181bbb07209576776f54b5f37b67",
+      "description": "Esta butaca inglesa con reposapiés de estilo Morris y de finales del s. XIX llegó a nuestras manos con una tapicería sosainas y con el acabado de la madera en muy mal estado. No hay más que ver las fotografías de detalle para ver cómo estaba, y el color real de la madera, que resultó ser tan clara como resistente. Después de darle un tinte uniforme de color castaño a toda la madera y rematarla con un acabado a la cera natural, se la llevamos al tapicero para que le pusiera este precioso terciopelo color amarillo mostaza de Gancedo y uno de nuestros tejidos favoritos",
+      "price": "180"
+    },
+    {
+      "id": "3",
+      "name": "Sillón vintage restaurado La Pedraza",
+      "img": "https://img.freepik.com/foto-gratis/aparador-madera-libros-jarron_53876-144976.jpg?w=740&t=st=1708523826~exp=1708524426~hmac=2a4471206e231fd1e211a58ca0ab056e98749330121d2aa10eb48efcaed6c593",
+      "description": "Amuebla tu casa o negocio con este sillón y ganarás en elegancia y confort.Además, los muebles vintage son y serán tendencia siempre.",
+      "price": "210"
+    },
+    {
+      "id": "4",
+      "name": "Mesa y silla vintage restaurados",
+      "img": "https://img.freepik.com/foto-gratis/muebles-vintage_74190-1784.jpg?w=360&t=st=1708531931~exp=1708532531~hmac=54735aab24857cef9a752d20b9ad3dc0183841d599ec90fb2029c7e91b8b07bd",
+      "description": "Esta butaca inglesa con reposapiés de estilo Morris y de finales del s. XIX llegó a nuestras manos con una tapicería sosainas y con el acabado de la madera en muy mal estado. No hay más que ver las fotografías de detalle para ver cómo estaba, y el color real de la madera, que resultó ser tan clara como resistente. Después de darle un tinte uniforme de color castaño a toda la madera y rematarla con un acabado a la cera natural, se la llevamos al tapicero para que le pusiera este precioso terciopelo color amarillo mostaza de Gancedo y uno de nuestros tejidos favoritos",
+      "price": "180"
+    },
+    {
+      "id": "5",
+      "name": "Mesilla inglesa restaurada",
+      "img": "https://img.freepik.com/foto-gratis/disparo-vertical-mesa-moderna-bonita-sala-estar_181624-44290.jpg?w=360&t=st=1708531151~exp=1708531751~hmac=ea372d67572846d4c86d8177afcc74ff9c051d6ab314b38ed2abecc2f7ead0c5",
+      "description": "Mesa toda de maciza de nogal, preciosa pátina. Mesa de cocina de trabajo de una antigua granja francesa que hemos decapado a mano dejando la pátina original del nogal antiguo.Principios siglo 20. El sobre son dos piezas de nogal. Cajón operativo. Ideal para silla.",
+      "price": "230"
+    },
+    {
+      "id": "6",
+      "name": "Sillón vintage restaurado La Pedraza",
+      "img": "https://img.freepik.com/foto-gratis/marco-fotos-arte-abstracto-junto-sillon-terciopelo-rosa_53876-128125.jpg?w=740&t=st=1708523782~exp=1708524382~hmac=9ecb1ba14ce1c6a078a58cc6e8bc8fe8527b68e7177fced57ec30846903e1723",
+      "description": "Los sillones ingleses antiguos son una pieza única de la historia. que viene con sus propias historias para contar. En muchos casos, los muebles ingleses antiguos se transmiten de generación en generación en las familias. Los ricos colores y texturas hacen que cada sillón inglés antiguo valga su peso en oro.",
+      "price": "180"
+    }
+  ]
+}
