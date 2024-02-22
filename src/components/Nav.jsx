@@ -10,11 +10,11 @@ const Nav = () => {
             <img src={logo} alt="logo" />
         </div>
         <div className="botonesNav">
-            <a href="/"><button>Home</button></a>
+            <a href="/"><button>Inicio</button></a>
             <a href="/gallery"><button>Galeria</button></a>
-            <a href=""><button>Contacto</button></a>
-            <a href="/access"><button>Sign Up</button></a>
-            {/* <a href=""><button>+ Subir Producto</button></a> */}
+            <a href="/contact"><button>Contacto</button></a>
+            <a href="/product"><button>+ Subir Producto</button></a>
+            <a href="/access"><button>Acceso</button></a>
         </div>
     </nav>
     </>

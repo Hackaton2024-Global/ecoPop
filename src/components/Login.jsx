@@ -2,6 +2,7 @@ import { useState } from 'react';
 import '../components/styles/styles.css';
 // import { login } from '../services/login';
 import { useNavigate } from 'react-router'; 
+import Swal from 'sweetalert2';
 
 
 const Login = () => {
@@ -24,7 +25,7 @@ const Login = () => {
 
       const handleSubmit = (e) =>{
         e.preventDefault();
-        alert('Formulario creado correctamente');
+        Swal.fire('Se ha registrado correctamente ✅');
         navigate('/');
       }
 

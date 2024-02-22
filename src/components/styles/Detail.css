@@ -43,7 +43,6 @@ body {
 .furniture-price {
     position: absolute;
     width: 15%;
-    padding: 0.5em;
     justify-items: center;
     text-align: center;
     color: rgb(246, 240, 190);
@@ -65,4 +64,26 @@ body {
 .add-cart-bt {
     margin-top: 4%;
     padding: 0.5rem;
+}
+
+/* Button */
+
+.add-to-cart {
+    width: 30%;
+    padding: 0.6em;
+    justify-items: center;
+    text-align: center;
+    color: rgb(246, 240, 190);
+    background-color: #604B2A;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 1em;
+    margin-right: 5%;
+    justify-items: center;
+    text-align: center;
 }

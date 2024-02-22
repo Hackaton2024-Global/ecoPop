@@ -5,6 +5,8 @@ import LayoutPublic from '../layout/LayoutPublic';
 import Detail from '../pages/Detail'
 import SignUp from '../pages/SignUp';
 import Access from '../pages/Access';
+import Contact from "../pages/Contact";
+import NewProduct from "../components/NewProduct";
 
 const router = createBrowserRouter([
     {
@@ -27,10 +29,18 @@ const router = createBrowserRouter([
             path: '/access',
             element: <Access />,
           },
+          {
+            path: '/contact',
+            element: <Contact />,
+          },
           { 
             path: "/gallery",
             element: <Gallery />
           },
+          {
+            path: "/product",
+            element: <NewProduct /> 
+          }
         ]
     }
 ]);

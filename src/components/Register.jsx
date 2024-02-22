@@ -1,29 +1,5 @@
 import '../components/styles/styles.css';
-
-// const Register = () => {
-
-//   return (
-//     <>
-//     <main className="pageAccesoJ">
-//         <h1 className="tituloAccesoJ">¡HOLA!</h1>
-//         <p className="parrafoAccesoJ">Bienvenid@s a EcoPop</p>
-//         <div className="AccesoUsuarioJ">
-//             <form id="logingformJ">
-//                 <input type="text" id="mailJ" required placeholder="Correo electrónico" />
-//                 <input type="password" id="passwordJ" required placeholder="Contraseña" />
-//                 <input className="registrateJ" type="submit" value="Ingresar" />
-//             </form>
-//         </div>
-//         <div className="contenedorDeBotonesJ">
-//             <a href="acceso2.html"><span>Si no tienes una cuenta: </span> <button className="registrateJ">Regístrate</button></a>
-//         </div>
-//     </main>
-//     </>
-//   )
-// }
-
-// export default Register
-
+import Swal from 'sweetalert2';
 import { useState } from 'react';
 import { useNavigate } from 'react-router'; 
 
@@ -38,12 +14,11 @@ const Register = () => {
 
   
     if (!email || !password) {
-      alert('Por favor, completa todos los campos');
+      Swal.fire('Por favor, completa todos los campos');
       return;
     }
     
-    alert('Cuenta creada correctamente');
-    alert(`Bienvenido ${name}`)
+    Swal.fire(`¡Cuenta creada correctamente! Bienvenido a EcoPop, ${name}`);
     navigate('/'); 
 
     setName('');
