@@ -39,6 +39,8 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Git
 - Json Server
 - Unit Testing
+- Bootstrap
+- Sweet Alert2
   ## Back end
 - JAVA con Maven en  Spring-boot
 - JPA, mySQL conector
@@ -62,7 +64,7 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - [Desirée](https://github.com/orgs/Hackaton2024-Global/people/DesireeCSilva "Github de Desirée ")
 - [Eliana](https://github.com/orgs/Hackaton2024-Global/people/Elianarve "Github de Eliana")
 - [Elias](https://github.com/orgs/Hackaton2024-Global/people/EliasXVIII "Github de Elias")
--[Yluzna](https://github.com/orgs/Hackaton2024-Global/people/Yluzna "Github de Yluzna")
+- [Yluzna](https://github.com/orgs/Hackaton2024-Global/people/Yluzna "Github de Yluzna")
   
   
  # ¡Contribuciones y sugerencias son bienvenidas para mejorar este proyecto!
