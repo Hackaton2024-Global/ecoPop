@@ -18,7 +18,7 @@ const Register = () => {
       return;
     }
     
-    Swal.fire(`¡Cuenta creada correctamente! Bienvenido a EcoPop, ${name}`);
+    Swal.fire(`Bienvenido a EcoPop, ${name}`);
     navigate('/'); 
 
     setName('');
