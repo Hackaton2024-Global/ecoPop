@@ -27,6 +27,10 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Publicación de anuncios
 
 ## Tecnologias utilizadas
+La gestión de dependencias 
+La ejecución de tests 
+El compilado/linkado de artefactos de despliegue 
+
 
 - [React]- Biblioteca JavaScript para construir interfaces de usuario.
 - [Firebase]- Plataforma para el desarrollo de aplicaciones web.
