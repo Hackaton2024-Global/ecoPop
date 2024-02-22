@@ -57,9 +57,9 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Github
 - [Tablero Trello](https://trello.com/b/8PhpECQl/hackathon-meeting "Tablero de Trello EcoPop Equipo 6 ")
 - [Figma](https://www.figma.com/file/LKQiFFZSCHntHlIkhviezT/Hackaton-Globant?type=design&node-id=1-2&mode=design&t=EDxrLz5k5vHO4MxE-0 "Figma Equipo 6")
-- Diagrama de flujo
-- (![image (1)](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/722ab519-294b-4c66-a76f-0cffa25f0334)
-- Esquema de tabla BBDD
+## Diagrama de flujo
+  ![image (1)](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/722ab519-294b-4c66-a76f-0cffa25f0334)
+## Esquema de tabla BBDD
 - ![image](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/f8942fc5-0a64-480c-b118-9e1b0daafc28)
 - Slack
   
