@@ -4,6 +4,7 @@
 ![header](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/a6ab507d-3412-4b91-a313-030905404056)
 # ecoPop
 ##Proyecto propuesto
+
 ¡Bienvenido a ecoPop tu market place original ! 🛋️ Aquí encontrarás una cuidada selección de muebles usados vintage y reacondicionados que añadirán autenticidad y estilo único a tu espacio.
 
 ## Descripción del Proyecto
