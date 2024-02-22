@@ -2,7 +2,7 @@
 
 ## Ficha de proyecto “Construye tu propio Marketplace”
 
-          ![header](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/a6ab507d-3412-4b91-a313-030905404056)
+           ![header](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/a6ab507d-3412-4b91-a313-030905404056)
 
 # ecoPop
 
