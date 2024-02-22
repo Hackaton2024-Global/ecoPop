@@ -1,8 +1,11 @@
 # Hackathon F5 Febrero 2024    EQUIPO 6
+
 ##Ficha de proyecto “Construye tu propio Marketplace”
 
 ![header](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/a6ab507d-3412-4b91-a313-030905404056)
+
 # ecoPop
+
 ## Proyecto propuesto
 
 ¡Bienvenido a ecoPop tu market place original ! 🛋️ Aquí encontrarás una cuidada selección de muebles usados vintage y reacondicionados que añadirán autenticidad y estilo único a tu espacio.
@@ -26,27 +29,29 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Página con el detalle de un anuncio
 - Publicación de anuncios
 
-## Tecnologias utilizadas
-La gestión de dependencias 
-La ejecución de tests 
-El compilado/linkado de artefactos de despliegue 
-
-
-- [React]- Biblioteca JavaScript para construir interfaces de usuario.
-- [Firebase]- Plataforma para el desarrollo de aplicaciones web.
+## Tecnologias utilizadas y gestión de dependencias  
 - HTML
 - CSS
 - JavaScript
 - React dom
 - Git
-- Axios/Fetch
 - Json Server
-- Unit Testing.
+- Unit Testing
+  ## Back end
+- JAVA con Maven en  Spring-boot
+- JPA, mySQL conector
+- Lombok
+- testing hamcrest
+- spring-boot-setarter-test y spring-security-test (editado) 
+  # Para la base datos DOCKER
+- mySQL Workbench
+  
 ## Herramientas
 - Visual Studio Code
 - GIT
 - Tablero Trello
-- Figma.
+- Figma
+- Slack
 ## Miembros
 - [Alicia](https://github.com/orgs/Hackaton2024-Global/people/Aliglez "Github de Alicia")
 - [Aintzane](https://github.com/orgs/Hackaton2024-Global/people/A-Goffard "Github de Aintzane")
