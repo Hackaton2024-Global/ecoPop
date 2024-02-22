@@ -60,10 +60,11 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 ## Diagrama de flujo
   ![image (1)](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/722ab519-294b-4c66-a76f-0cffa25f0334)
 ## Esquema de tabla BBDD
-- ![image](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/f8942fc5-0a64-480c-b118-9e1b0daafc28)
+ ![image](https://github.com/Hackaton2024-Global/ecoPop/assets/140159606/f8942fc5-0a64-480c-b118-9e1b0daafc28)
 - Slack
   
 ## Miembros
+
 - [Alicia](https://github.com/orgs/Hackaton2024-Global/people/Aliglez "Github de Alicia")
 - [Aintzane](https://github.com/orgs/Hackaton2024-Global/people/A-Goffard "Github de Aintzane")
 - [Beatriz](https://github.com/orgs/Hackaton2024-Global/people/BeatrizMercado "Github de Beatriz")
