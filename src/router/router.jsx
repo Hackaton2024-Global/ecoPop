@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from '../pages/Home';
 import LayoutPublic from '../layout/LayoutPublic';
-import CardDetail from "../components/CardDetail";
+import Detail from '../pages/Detail'
 
 const router = createBrowserRouter([
     {
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
             element: <Home />, 
           },
           {
-            path: "/detail",
-            element: <CardDetail/>
+            path: "/detail/:id",
+            element: <Detail/>
           }
         ]
         },
