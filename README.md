@@ -40,9 +40,14 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Tablero Trello
 - Figma.
 ## Miembros
--[Elias]( "")
-
+-[Alicia](https://github.com/orgs/Hackaton2024-Global/people/Aliglez "Github de Alicia")
+-[Aintzane](https://github.com/orgs/Hackaton2024-Global/people/A-Goffard "Github de Aintzane")
+-[Beatriz](https://github.com/orgs/Hackaton2024-Global/people/BeatrizMercado "Github de Beatriz")
 - [Faby](https://github.com/ilfagaro "Github de Faby")
+-[Desirée](https://github.com/orgs/Hackaton2024-Global/people/DesireeCSilva "Github de Desirée ")
+-[Eliana](https://github.com/orgs/Hackaton2024-Global/people/Elianarve "Github de Eliana")
+-[Elias](https://github.com/orgs/Hackaton2024-Global/people/EliasXVIII "Github de Elias")
+-[Yluzna](https://github.com/orgs/Hackaton2024-Global/people/Yluzna "Github de Yluzna")
   
   
  # ¡Contribuciones y sugerencias son bienvenidas para mejorar este proyecto!
