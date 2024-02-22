@@ -1,6 +1,8 @@
-import '../components/styles/Gallery.css';
+import './styles/Gallery.css';
+import { useNavigate } from 'react-router';
 
 const Cgallery = (data) => {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -13,8 +15,8 @@ const Cgallery = (data) => {
         <button className="boton-producto-agregar">
           <p className="producto-precio"><i className="fa-solid fa-cart-shopping"></i>{mueble.price}</p>
         </button>
-        <button className="boton-producto-detalles">
-          <p className="producto-masinfo"> Más detalles +</p>
+        <button className="boton-producto-detalles" onClick={()=>navigate(`/detail/${mueble.id}`)}>
+           Más detalles +
         </button>
       {/* </div> */}
       </div>
