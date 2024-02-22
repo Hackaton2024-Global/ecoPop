@@ -4,7 +4,6 @@ export const dataMuebles = async () =>{
     if (!response.ok) {
       throw new Error('Error al obtener los datos');
     }
-
     const result = await response.json();
     return result;
 }
