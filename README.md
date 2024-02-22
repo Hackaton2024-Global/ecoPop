@@ -54,8 +54,8 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 ## Herramientas
 - Visual Studio Code
 - GIT
-- Tablero Trello
-- Figma
+- [Tablero Trello](https://trello.com/b/8PhpECQl/hackathon-meeting "Tablero de Trello EcoPop Equipo 6 ")
+- [Figma](https://www.figma.com/file/LKQiFFZSCHntHlIkhviezT/Hackaton-Globant?type=design&node-id=1-2&mode=design&t=EDxrLz5k5vHO4MxE-0 "Figma Equipo 6")
 - Slack
 ## Miembros
 - [Alicia](https://github.com/orgs/Hackaton2024-Global/people/Aliglez "Github de Alicia")
