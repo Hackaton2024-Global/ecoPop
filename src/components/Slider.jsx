@@ -7,45 +7,40 @@ import '../components/styles/Slider.css'
 
 const Slider = () => {
   return (
-    <div>
-      <div id="container-slider">
-  
+    
+      <article id="container-slider">
         <section className="section-slider">
         <div className='slider'>
-        <a name="img_1">
-        <img
-            src={hero}
+        <a className="a-img" name="img_1">
+        <img className='img-slider' src={hero}
           />
         </a>
-        <a name="img_2">
-        <img
-            src={hero2}
+        <a className="a-img" name="img_2">
+        <img className='img-slider' src={hero2}
           />
         </a>
-        <a name="img_3">
-        <img
-            src={hero3}
+        <a className="a-img" name="img_3">
+        <img className='img-slider' src={hero3}
           />
         </a>
-        <a name="img_4">
-        <img
-            src={hero4}
+        <a className="a-img" name="img_4">
+        <img className='img-slider' src={hero4}
           />
         </a>
       </div>
       
-      {/* <div className="elipse"{{background: radial-gradient(ellipse 80% 80% at 50% -20%,#7877c64d,#fff0); position: absolute; top: 0; width: 100%; height: 100%; left:0; z-index: -1}}></div> */}
+      <div style={{background: 'radial-gradient(ellipse at 50% -20%, #7877c64d, #fff0)', position: 'absolute', top: 0, width: '100%', height: '100%', left: 0, zIndex: -1}}></div>
       
       <ul className="markers">
-        <li><a href="#img_1"></a></li>
-        <li><a href="#img_2"></a></li>
-        <li><a href="#img_3"></a></li>
-        <li><a href="#img_4"></a></li>
+        <li><a className="a-img" href="#img_1"></a></li>
+        <li><a className="a-img" href="#img_2"></a></li>
+        <li><a className="a-img" href="#img_3"></a></li>
+        <li><a className="a-img" href="#img_4"></a></li>
       </ul>
-      
+    
       </section>
-    </div>
-    </div>
+     </article>  
+   
   )
 }
 
