@@ -28,6 +28,8 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - Página con el listado de anuncios
 - Página con el detalle de un anuncio
 - Publicación de anuncios
+  ## Extra
+- Login en local-host
 
 ## Tecnologias utilizadas y gestión de dependencias  
 - HTML
