@@ -1,7 +1,7 @@
 import './styles/Gallery.css';
 import { useNavigate } from 'react-router';
 
-const Gallery = (data) => {
+const Cgallery = (data) => {
   const navigate = useNavigate();
 
   return (
