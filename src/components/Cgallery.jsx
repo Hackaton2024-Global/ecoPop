@@ -1,9 +1,10 @@
-import './styles/Gallery.css';
+import '../components/styles/Gallery.css';
 
-const Gallery = (data) => {
+const Cgallery = (data) => {
+
   return (
     <>
-    {data.data.map((mueble) => {
+      {data.data?.map((mueble) => {
     return (<article className="carta-modelo" key={mueble.id}>
       <div className="contenedor-productos">
       <img src={mueble.img} alt="" className="producto-imagen" />
@@ -21,4 +22,4 @@ const Gallery = (data) => {
     </>
   )}
 
-export default Gallery;
+export default Cgallery;
