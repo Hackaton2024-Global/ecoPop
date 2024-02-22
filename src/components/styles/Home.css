@@ -19,3 +19,27 @@
     flex-wrap: wrap;
     gap: 1%;
 }
+
+/* input buscar */
+
+.buscar{
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.buscar input{
+    height: 2rem;
+    width: 70%;
+    border: none;
+    border-bottom: black solid 1px;
+    margin-right: 0%;
+}
+.buscarE{
+    margin-left: 0.5rem;
+    background-color:#604B2A;
+    height: 2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}

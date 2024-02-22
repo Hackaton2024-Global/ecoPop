@@ -4,7 +4,7 @@
 *************Singn up***************** */
 
 .pageAccesoJ{
-    background-color: #ebb866;
+    background-color: rgb(246, 240, 190);
     height: 25rem;
     width: 100%;
     display: flex;
@@ -54,7 +54,7 @@
 }
 .registrateB {
     border: none;
-    background-color: #ebb866;
+    background-color: rgb(246, 240, 190);
     cursor: pointer;
 }
 
@@ -62,7 +62,7 @@
 /* ***********Acceso 2*********** */
 
 .pageAcceso2J{
-    background-color: #ebb866;
+    background-color: rgb(246, 240, 190);
     height: 30rem;
     width: 100%;
     display: flex;
@@ -99,7 +99,7 @@
 #registroFormJ input{
    /*  border: none; */
    border: none;
-   border-bottom: #3b2e19 solid 2px;
+   border-bottom: rgb(246, 240, 190) solid 2px;
    background-color: aliceblue;
    color: black;
    border-radius: 0.5rem;
@@ -118,6 +118,6 @@
 .registrateJ{
     text-decoration-line:underline;
     display: flex;
-    background-color: #ebb866;
+    background-color: rgb(246, 240, 190);
     border: none;    
 }
