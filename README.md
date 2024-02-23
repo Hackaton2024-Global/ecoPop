@@ -78,6 +78,33 @@ Contribuye al medio ambiente al elegir muebles reacondicionados, reduciendo la h
 - [Elias](https://github.com/orgs/Hackaton2024-Global/people/EliasXVIII "Github de Elias")
 - [Yluzna](https://github.com/orgs/Hackaton2024-Global/people/Yluzna "Github de Yluzna")
   
-  
+  ## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+### Compile and call Api
+
+```sh
+npm run api
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
+```
+
  # ¡Contribuciones y sugerencias son bienvenidas para mejorar este proyecto!
 
